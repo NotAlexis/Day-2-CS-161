@@ -1,0 +1,38 @@
+/*  Filename ip2_variables.cpp
+    Desc: Program to compute the length of a line that can be formed by a group of students holding hands.
+    Authors: Alexis & Max
+    Driver: Alexis
+    Navigator: Max
+    Date: 1/10/19
+
+    */
+
+#include <iostream>
+#include <iomanip>
+#include <string>
+
+using namespace std;
+
+int main()
+
+{
+
+//declare
+int numberStudents;
+float armSpan;
+float lineLength;
+
+
+//initialize
+numberStudents = 17;
+armSpan = 29.275;
+lineLength = numberStudents * armSpan;
+
+//output
+
+cout << numberStudents << " students,"
+   << " with average arm span of " << armSpan << " inches," << endl;
+cout << "can create a line that is " << lineLength << " inches long." << endl;
+
+return 0;
+}
